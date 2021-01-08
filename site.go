@@ -17,7 +17,7 @@ func main() {
 }
 
 func hello(res http.ResponseWriter, req *http.Request) {
-	fmt.Fprintln(res, "go, world")
+	fmt.Fprintln(res, "hello, world")
 }
 
 func echo(res http.ResponseWriter, req *http.Request) {
